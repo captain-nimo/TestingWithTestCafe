@@ -3,7 +3,7 @@ import {Selector} from 'testcafe';
 fixture('Testing Real Canadian Superstore Website')
     .page('https://www.realcanadiansuperstore.ca/');
 
-test('Searching oranges and checking deals', async t => {
+test('Searching oranges and checking deals in smaller screen', async t => {
     
     await t
         // Re-sizing browser window
