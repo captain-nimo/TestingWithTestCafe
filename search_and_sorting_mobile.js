@@ -13,6 +13,7 @@ test('Search apples and sort the search results in smaller screen', async t => {
     
     await t
         // Switching to iframe and closing it
+        .wait(5000)
         .switchToIframe(Selector('.sl-show-animation .sl-frame'))
         .click('#i-1')
         .switchToMainWindow();
@@ -39,5 +40,20 @@ test('Search apples and sort the search results in smaller screen', async t => {
     await t
         .expect(selected);
     
+    await t
+        const itemPrice = Selector('.reg-price-text')
+        const itemCount = await itemPrice.count
+        const price = new Array(itemCount);
         
+        // Adding price values in the array
+        for (var i = 0; i < itemCount; i++) {
+            await t
+            price.push((Selector('.reg-price-text').nth(i)));
+        }
+    
+        // Checking whether the prices are sorted
+        for (var i = 0; i < itemCount; i++) {
+            await t
+                .expect(price[i] >= price[i+1]);
+        }
 });
