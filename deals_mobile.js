@@ -13,10 +13,12 @@ test('Searching oranges and checking deals', async t => {
     
     await t
         // Selecting location
+        .wait(5000)
         .click(Selector('.select-province').withText('Ontario'));
     
     await t
         // Switching to iframe and closing it
+        .wait(5000)
         .switchToIframe(Selector('.sl-show-animation .sl-frame'))
         .click('#i-1')
         .switchToMainWindow();
@@ -34,5 +36,5 @@ test('Searching oranges and checking deals', async t => {
         const badge = Selector('.deal-type');
     
     await t
-        .expect(badge.exists).ok();        
+        .expect(badge.exists).ok();
 });
