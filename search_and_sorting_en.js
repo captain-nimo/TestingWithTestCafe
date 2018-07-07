@@ -1,57 +1,19 @@
 import {Selector} from 'testcafe';
+import config from './lobLaw_config.json';
+import {closingIframe, search, sort} from './loblaw_utilities.js';
 
-fixture('Testing LobLaw Website')
-    .page('https://www.loblaws.ca/');
+fixture('Loblaw web client in english')
+    .page(config.baseUrl);
 
-test('Search apples and sort the search results', async t => {
+test('Search for item and sort the search results', async t => {
     
     await t
-        // Maximize browser window
-        .maximizeWindow();
+        .maximizeWindow(); // Maximize browser window
     
-    await t
-        // Switching to iframe and closing it
-        .wait(5000)
-        .switchToIframe(Selector('.sl-show-animation .sl-frame'))
-        .click('#i-1')
-        .switchToMainWindow();
-        
-    await t
-        // Inserting 'apples' text in the search bar
-        .typeText('#search-bar', 'apples')
-        // Start searching
-        .pressKey('enter')
-        
-        // Checking the search result
-        .expect(Selector('.term-result-found').innerText).contains('"APPLES"');
+    await closingIframe(t); // Called function to close the iFrame
     
-        // Sorting search results from highest price to lowest price.
-        const sorting = Selector('button')
-        .withText('Price (High to Low)')
+    await search(t); // Called function to search item
     
-        const selected = Selector('.btn-sort-link  selected');
+    await sort(t); // Called function to sort the search results
     
-    await t
-        // Clicking the 'price-desc' button
-        .click(sorting);
-    
-    await t
-        .expect(selected);
-    
-    await t
-        const itemPrice = Selector('.reg-price-text')
-        const itemCount = await itemPrice.count
-        const price = new Array(itemCount);
-        
-        // Adding price values in the array
-        for (var i = 0; i < itemCount; i++) {
-            await t
-            price.push((Selector('.reg-price-text').nth(i)));
-        }
-    
-        // Checking whether the prices are sorted
-        for (var i = 0; i < itemCount; i++) {
-            await t
-                .expect(price[i] >= price[i+1]);
-        }
 });
