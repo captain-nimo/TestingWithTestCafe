@@ -2,7 +2,7 @@ import {Selector} from 'testcafe';
 import config from './lobLaw_config.json';
 import {closingIframe, search, sort} from './loblaw_utilities.js';
 
-fixture('Loblaw web client in english')
+fixture('Loblaw website in english')
     .page(config.baseUrl);
 
 test('Search for item and sort the search results', async t => {
