@@ -2,7 +2,7 @@ import {Selector} from 'testcafe';
 import config from './lobLaw_config.json';
 import {closingIframe, search, sort} from './loblaw_utilities.js';
 
-fixture('Loblaw web client in mobile screen')
+fixture('Loblaw website in mobile screen')
     .page(config.baseUrl);
 
 test('Search for items and sort the search results', async t => {
