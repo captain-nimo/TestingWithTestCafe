@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://www.loblaws.ca/",
+    "iframe": ".sl-show-animation .sl-frame",
+    "iframId": "#i-1",
+    "searchBarId": "#search-bar",
+    "searchString": "apples",
+    "searchResult": ".term-result-found",
+    "searchResultString": "APPLES",
+    "ascButton": "[data-sort-type='price-asc']",
+    "descButton": "[data-sort-type='price-desc']",
+    "sortSelection": ".btn-sort-link  selected",
+    "price": ".reg-price-text",
+    "languageFrench": ".header-bar [href='\/PickUpStore\/language']"
+    
+}
