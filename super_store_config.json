@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://www.realcanadiansuperstore.ca/",
+    "SelectProvince": ".select-province",
+    "provinceName": "Ontario",
+    "iframe": ".sl-show-animation .sl-frame",
+    "iframId": "#i-1",
+    "searchBarId": "#search-bar",
+    "searchString": "oranges",
+    "searchResult": ".term-result-found",
+    "searchResultString": "ORANGES",
+    "badge": ".deal-type"
+}
