@@ -1,6 +1,6 @@
 # Testing with TestCafe
 
-	The aim of this project is to automate some functionalities of [https://www.loblaws.ca/] 
+	The aim of this project is to automate some functionalities of [https://www.loblaws.ca/](https://www.loblaws.ca/) 
 	and 'https://www.realcanadiansuperstore.ca/' using the Node.js base automation tool TestCafe.
 	There are separate folders (assuming the folders are different projects) for the sites, named 
 	'Test_Loblaw_Site' and 'Test_Super_Store_Site' respectively. 
