@@ -1,5 +1,5 @@
 import {Selector} from 'testcafe';
-import config from './super_store_config.json';
+import config from './config.json';
 
 export async function selectLocation(t) {
     
@@ -23,15 +23,17 @@ export async function search(t) {
     await t
         // Inserting search text in the search bar
         .typeText(config.searchBarId, config.searchString)
+    
         // Start searching
         .pressKey('enter')
+    
         // Checking the search result
         .expect(Selector(config.searchResult).innerText).contains(config.searchResultString);
 }
 
 export async function checkDealBadge(t) {
     
-    // Checking deal badge
+    // Checking deal badge in the result page
     await t
         .expect(Selector(config.badge).exists).ok();
     
