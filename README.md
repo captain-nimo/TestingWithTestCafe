@@ -139,7 +139,7 @@
 ## Repository
 
 	We are using https://github.com as repository. Link of the repository is: 
-	https://github.com/captain-nimo/Testing_with_TestCafe 
+https://github.com/captain-nimo/Testing_with_TestCafe 
 
 ## Authors
 
