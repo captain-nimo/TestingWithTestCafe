@@ -162,4 +162,4 @@ https://github.com/captain-nimo/Testing_with_TestCafe
 
 ## Acknowledgments
 
-* https://devexpress.github.io/testcafe/documentation/getting-started/
+* https://devexpress.github.io/testcafe/documentation/
