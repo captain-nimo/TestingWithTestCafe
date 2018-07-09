@@ -64,8 +64,8 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 	    i.e. For chrome: 
 	    		
 		I. testcafe chrome test_loblaw_site_en.js 
-    	 II. testcafe chrome test_loblaw_site_fr.js
-    	 III. testcafe chrome test_loblaw_site_mobile.js 
+    	II. testcafe chrome test_loblaw_site_fr.js
+    	III. testcafe chrome test_loblaw_site_mobile.js 
 
 	    For firefox: 
 	    		
