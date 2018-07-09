@@ -145,7 +145,7 @@
 
 ***Mahmudul Hasan Robin***
 
-	See also the list of [contributors](https://github.com/captain-nimo/Testing_with_TestCafe/contributors) 
+	See also the list of [contributors](*https://github.com/captain-nimo/Testing_with_TestCafe/contributors) 
 	who participated in this project.
 
 ## License
@@ -154,4 +154,4 @@
 
 ## Acknowledgments
 
-	* https://devexpress.github.io/testcafe/documentation/getting-started/
+* https://devexpress.github.io/testcafe/documentation/getting-started/
