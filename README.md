@@ -42,7 +42,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 
 ##### Description of the files
 
-	There are 1 config file 'config.json' and one utility file 'utilities.js' in this folder. 
+	There are 1 config file 'config.json' and 1 utility file 'utilities.js' in this folder. 
 	'utilities.js' contains all the common functions for 'Test_Loblaw_Site' project. The test 
 	files call these functions to execute test cases. 'config.json' contains the required values
 	(i.e. CSS selector values) used in the functions of 'utilities.js' file. If any of these 
@@ -96,7 +96,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 
 ##### Description of the files
 
-	There are 1 config file 'config.json' and one utility file 'utilities.js' in this folder. 
+	There are 1 config file 'config.json' and 1 utility file 'utilities.js' in this folder. 
 	'utilities.js' contains all the common functions for the 'Test_Super_Store_Site' project. 
 	The test files call these functions to execute test cases. 'config.json' contains the 
 	required values (i.e. CSS selector values) used in the functions of 'utilities.js' file. 
