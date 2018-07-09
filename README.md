@@ -115,7 +115,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 
 	a. In your console, go to the location where the test scripts are saved.
 
-	b. Now run following command to open browser and start the test for 'Real Canadian Super Store website' website: 
+	b. Now run following command to open browser and start the test for 'Real Canadian Super Store' website: 
 	  	
 	  		testcafe browser_name file_name
 
