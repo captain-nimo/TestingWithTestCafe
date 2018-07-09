@@ -1,6 +1,6 @@
 import {Selector} from 'testcafe';
 import config from './config.json';
-import {closingIframe, search, sort} from './utilities.js';
+import {closingIframe, searchItem, sortSearchResults, checkSorting} from './utilities.js';
 
 fixture('Loblaw website in english')
     .page(config.baseUrl);
@@ -12,8 +12,10 @@ test('Search for item and sort the search results', async t => {
     
     await closingIframe(t); // Calling function from 'utilities.js' to close the iFrame
     
-    await search(t); // Calling function from 'utilities.js' to search item
+    await searchItem(t, 'apples', 'APPLES'); // Calling function from 'utilities.js' to search item in the search bar
     
-    await sort(t); // Calling function from 'utilities.js' to sort the search results
+    await sortSearchResults(t); // Calling function from 'utilities.js' to sort the search results
+    
+    await checkSorting(t); // Calling function from 'utilities.js' to check if sorting is cottect
     
 });
