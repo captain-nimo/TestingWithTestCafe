@@ -48,7 +48,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 	(i.e. CSS selector values) used in the functions of 'utilities.js' file. If any of these 
 	values change in future, we just need to update the values only in 'config.json'.
 		
-	There are 3 test files in the folder.
+	There are 3 test scripts in the folder.
 			
 		i. test_loblaw_site_en.js
 		ii. test_loblaw_site_fr.js
@@ -102,7 +102,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 	required values (i.e. CSS selector values) used in the functions of 'utilities.js' file. 
 	If any of these values change in future, we just need to update the values only in 'config.json'.
 		
-	There are 2 test files in the folder.
+	There are 2 test scripts in the folder.
 			
 		i. test_super_store_site_en.js
 		ii. test_super_store_site_mobile.js
