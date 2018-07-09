@@ -1,5 +1,5 @@
 import {Selector} from 'testcafe';
-import config from './lobLaw_config.json';
+import config from './config.json';
 
 export async function closingIframe(t) {
    
@@ -15,8 +15,10 @@ export async function search(t) {
     await t
         // Inserting search text in the search bar
         .typeText(config.searchBarId, config.searchString)
+    
         // Start searching
         .pressKey('enter')
+    
         // Checking the search result
         .expect(Selector(config.searchResult).innerText).contains(config.searchResultString);
 }
@@ -40,7 +42,7 @@ export async function sort(t) {
         }
     
         // Checking whether the prices are sorted
-        for (var i = 0; i < itemCount; i++) {
+        for (var i = 0; i < itemCount - 1; i++) {
             await t
                 .expect(price[i] >= price[i+1]);
         }
