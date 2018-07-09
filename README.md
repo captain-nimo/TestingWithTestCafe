@@ -1,14 +1,15 @@
 # Testing with TestCafe
 
-	The aim of this project is to automate some functionalities of 'https://www.loblaws.ca/' 
-	and 'https://www.realcanadiansuperstore.ca/' using the Node.js base automation tool TestCafe.
+	The aim of this project is to automate some functionalities of
+https://www.loblaws.ca/ and 
+https://www.realcanadiansuperstore.ca/ using the Node.js base automation tool TestCafe.
 	There are separate folders (assuming the folders are different projects) for the sites, named 
 	'Test_Loblaw_Site' and 'Test_Super_Store_Site' respectively. 
 
 ## Getting Started
 
-	Go to https://github.com/captain-nimo/Testing_with_TestCafe and clone or download the git 
-	repository to your machine.
+	Go to 
+https://github.com/captain-nimo/Testing_with_TestCafe, and clone or download the git repository to your machine.
 	
 ### Prerequisites
 
@@ -19,7 +20,8 @@
 
 #### 1. Node Installation:
 
-	Go to https://nodejs.org/en/, download the latest version of Node.js and install it.
+	Go to 
+https://nodejs.org/en/, download the latest version of Node.js and install it.
 	
 #### 2. TestCafe Installation:
 
@@ -61,15 +63,15 @@
 
 	    i.e. For chrome: 
 	    		
-	    I. testcafe chrome test_loblaw_site_en.js 
-    	II. testcafe chrome test_loblaw_site_fr.js
-    	III. testcafe chrome test_loblaw_site_mobile.js 
+		I. testcafe chrome test_loblaw_site_en.js 
+    	    	II. testcafe chrome test_loblaw_site_fr.js
+    	    	III. testcafe chrome test_loblaw_site_mobile.js 
 
 	    For firefox: 
 	    		
-	    I. testcafe firefox test_loblaw_site_en.js
-	    II. testcafe firefox test_loblaw_site_fr.js
-	    III. testcafe firefox test_loblaw_site_mobile.js
+	    	I. testcafe firefox test_loblaw_site_en.js
+	    	II. testcafe firefox test_loblaw_site_fr.js
+	    	III. testcafe firefox test_loblaw_site_mobile.js
 	    
 	 c. If you want to run all the scripts sequentially by a single command, execute the 
 	 following bash file from the local repository.
@@ -114,13 +116,13 @@
 
 	    i.e. For chrome: 
 	    		
-	    I. testcafe chrome test_super_store_site_en.js 
-    	II. testcafe chrome test_super_store_site_mobile.js
+	    	I. testcafe chrome test_super_store_site_en.js 
+    		II. testcafe chrome test_super_store_site_mobile.js
 
 	    For firefox: 
 	    		
-	    I. testcafe firefox test_super_store_site_en.js
-	    II. testcafe firefox test_super_store_site_mobile.js
+	    	I. testcafe firefox test_super_store_site_en.js
+	    	II. testcafe firefox test_super_store_site_mobile.js
 	    
 	c. If you want to run all the scripts sequentially by a single command, execute the 
 	following bash file from the local repository.
@@ -145,8 +147,8 @@ https://github.com/captain-nimo/Testing_with_TestCafe
 
 ***Mahmudul Hasan Robin***
 
-	See also the list of [contributors](https://github.com/captain-nimo/Testing_with_TestCafe/contributors) 
-	who participated in this project.
+	See also the list of 
+[contributors](https://github.com/captain-nimo/Testing_with_TestCafe/contributors) who participated in this project.
 
 ## License
 
