@@ -33,19 +33,19 @@ export async function sortSearchResults(t) {
 export async function checkSorting(t) {
     
     await t
-        const itemPrice = Selector(config.price)
+        const itemPrice = Selector(config.itemPriceLocator)
         const itemCount = await itemPrice.count
-        const price = new Array(itemCount);
+        const priceArray = new Array(itemCount);
         
         // Adding item price values in the array
         for (var i = 0; i < itemCount; i++) {
             await t
-            price.push((Selector(config.price).nth(i)));
+            priceArray.push((Selector(config.itemPriceLocator).nth(i)));
         }
     
         // Checking whether the item prices are sorted
         for (var i = 0; i < itemCount - 1; i++) {
             await t
-                .expect(price[i] >= price[i+1]);
+                .expect(priceArray[i] >= priceArray[i+1]);
         }
 }
