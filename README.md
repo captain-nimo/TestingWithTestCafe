@@ -125,7 +125,7 @@
 	c. If you want to run all the scripts sequentially by a single command, execute the 
 	following bash file from the local repository.
   
-  			‘run_all_super_store_scripts_in_chrome.sh’/‘run_all_super_store_scripts_in_firefox.sh’
+  		‘run_all_super_store_scripts_in_chrome.sh’/‘run_all_super_store_scripts_in_firefox.sh’
 
 	    *** To make the bash file executable, please run the following command in console: 
 	    	
@@ -135,3 +135,23 @@
 	    		
 	    	For Chrome: ./run_all_super_store_scripts_in_chrome.sh
 	    	For Firefox: ./run_all_super_store_scripts_in_firefox.sh
+		
+## Repository
+
+	We are using https://github.com as repository. Link of the repository is: 
+	https://github.com/captain-nimo/Testing_with_TestCafe 
+
+## Authors
+
+	***Mahmudul Hasan Robin***
+
+	See also the list of [contributors](https://github.com/captain-nimo/Testing_with_TestCafe/contributors) 
+	who participated in this project.
+
+## License
+
+	This project is an open source project.
+
+## Acknowledgments
+
+	* https://devexpress.github.io/testcafe/documentation/getting-started/
