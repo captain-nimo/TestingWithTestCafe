@@ -13,8 +13,8 @@ https://github.com/captain-nimo/Testing_with_TestCafe, and clone or download the
 	
 ### Prerequisites
 
-	To run this project with a browser, you need to have a browser (i.e. ‘Chrome’, ‘Firefox’ 
-	in your system). Also, you need to install Node.js, npm and TestCafe.
+	To run this project with a browser, you need to have a browser (i.e. ‘Chrome’, ‘Firefox’) 
+	in your system. Also, you need to install Node.js, npm and TestCafe.
 	
 ### Installation
 
