@@ -55,7 +55,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 		iii. test_loblaw_site_mobile.js
 			
 	These files execute the test cases. Some functionalitis are implemented by calling TestCafe 
-	built-in functions, some functionalities are implemented in the specific files, and some common 
+	library functions, some functionalities are implemented in the specific files, and some common 
 	functionalities are implemented by calling functions from 'utilities.js'.
 
 ##### Run the test Scripts for Loblaw website:
@@ -108,7 +108,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 		ii. test_super_store_site_mobile.js
 			
 	These files execute the test cases. Some functionalitis are implemented by calling TestCafe 
-	built-in functions, some functionalities are implemented in the specific files, and some common 
+	library functions, some functionalities are implemented in the specific files, and some common 
 	functionalities are implemented by calling functions from 'utilities.js'.
 
 ##### Run the test Scripts for Real Canadian Super Store website:
