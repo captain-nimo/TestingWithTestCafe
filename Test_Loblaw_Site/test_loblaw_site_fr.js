@@ -15,7 +15,7 @@ test('Search for item and sort the search results', async t => {
     await t
         .click(Selector(config.languageFrench)); // Setting language as French
     
-    await searchItem(t, 'apples', 'APPLES'); // Calling function from 'utilities.js' to search item in the search bar
+    await searchItem(t, 'pommes', 'POMMES'); // Calling function from 'utilities.js' to search item in the search bar
     
     await sortSearchResults(t); // Calling function from 'utilities.js' to sort the search results
     
