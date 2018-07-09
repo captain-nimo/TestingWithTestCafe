@@ -7,7 +7,7 @@
     "ascButton": "[data-sort-type='price-asc']",
     "descButton": "[data-sort-type='price-desc']",
     "sortSelection": ".btn-sort-link  selected",
-    "price": ".reg-price-text",
+    "itemPriceLocator": ".reg-price-text",
     "languageFrench": ".header-bar [href='\/PickUpStore\/language']"
     
 }
