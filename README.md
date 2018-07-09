@@ -63,7 +63,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 
 	b. Now run following command to open browser and start the test for 'Loblaw' website: 
 	  	
-			testcafe browser_name file_name
+		testcafe browser_name file_name
 
 	    i.e. For chrome: 
 	    		
