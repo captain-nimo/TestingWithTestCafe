@@ -18,17 +18,17 @@ export async function closingIframe(t) {
 }
 
 
-export async function search(t) {
+export async function searchItem(t, searchString, searchResultString) {
     
     await t
         // Inserting search text in the search bar
-        .typeText(config.searchBarId, config.searchString)
+        .typeText(config.searchBarId, searchString)
     
         // Start searching
         .pressKey('enter')
     
         // Checking the search result
-        .expect(Selector(config.searchResult).innerText).contains(config.searchResultString);
+        .expect(Selector(config.searchResult).innerText).contains(searchResultString);
 }
 
 export async function checkDealBadge(t) {
