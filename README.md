@@ -81,7 +81,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 	 c. If you want to run all the scripts sequentially by a single command, execute the 
 	 following bash file from the local repository.
   
-  			‘run_all_loblaw_scripts_in_chrome.sh’/‘run_all_loblaw_scripts_in_firefox.sh’
+  		‘run_all_loblaw_scripts_in_chrome.sh’/‘run_all_loblaw_scripts_in_firefox.sh’
 
 	    *** To make the bash file executable, please run the following command in console: 
 	    	
