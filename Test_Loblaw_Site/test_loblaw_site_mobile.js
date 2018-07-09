@@ -1,6 +1,6 @@
 import {Selector} from 'testcafe';
-import config from './lobLaw_config.json';
-import {closingIframe, search, sort} from './loblaw_utilities.js';
+import config from './config.json';
+import {closingIframe, search, sort} from './utilities.js';
 
 fixture('Loblaw website in mobile screen')
     .page(config.baseUrl);
@@ -8,15 +8,15 @@ fixture('Loblaw website in mobile screen')
 test('Search for items and sort the search results', async t => {
     
     await t
-        // Setting browser window size to iPhone 5S
+        // Calling library fuction to set browser window size to iPhone 5S
         .resizeWindowToFitDevice('iPhone 5S', {
             portraitOrientation: true
         });
     
-    await closingIframe(t); // Called function to close the iFrame
+    await closingIframe(t); // Calling function from 'utilities.js' to close the iFrame
     
-    await search(t); // Called function to search item
+    await search(t); // Calling function from 'utilities.js' to search item
  
-    await sort(t); // Called function to sort the search results
+    await sort(t); // Calling function from 'utilities.js' to sort the search results
     
 });
