@@ -10,38 +10,40 @@ export async function closingIframe(t) {
         .switchToMainWindow();
 }
 
-export async function search(t) {
+export async function searchItem(t, searchString, searchResultString) {
     
     await t
         // Inserting search text in the search bar
-        .typeText(config.searchBarId, config.searchString)
+        .typeText(config.searchBarId, searchString)
     
         // Start searching
         .pressKey('enter')
     
         // Checking the search result
-        .expect(Selector(config.searchResult).innerText).contains(config.searchResultString);
+        .expect(Selector(config.searchResult).innerText).contains(searchResultString);
 }
 
-export async function sort(t) {
-    
-        // Sorting search results from the highest price to the lowest.
+export async function sortSearchResults(t) {
+
     await t
-        .click(Selector(config.descButton))
+        .click(Selector(config.descButton)) // Sorting the search results from the highest price to the lowest.
         .expect(Selector(config.sortSelection));
+}
+
+export async function checkSorting(t) {
     
     await t
         const itemPrice = Selector(config.price)
         const itemCount = await itemPrice.count
         const price = new Array(itemCount);
         
-        // Adding price values in the array
+        // Adding item price values in the array
         for (var i = 0; i < itemCount; i++) {
             await t
             price.push((Selector(config.price).nth(i)));
         }
     
-        // Checking whether the prices are sorted
+        // Checking whether the item prices are sorted
         for (var i = 0; i < itemCount - 1; i++) {
             await t
                 .expect(price[i] >= price[i+1]);
