@@ -30,6 +30,10 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 	for windows), type the following text and press Enter:
 
 	  	npm install -g testcafe
+	
+	If you face any permission issue, run the following command in the colsole and provide udername/password.
+		
+		sudo npm install -g testcafe
 	  		
 ## Running the tests
 
