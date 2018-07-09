@@ -54,7 +54,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 		ii. test_loblaw_site_fr.js
 		iii. test_loblaw_site_mobile.js
 			
-	These files executes the test cases. Some functionalitis are implemented by calling TestCafe 
+	These files execute the test cases. Some functionalitis are implemented by calling TestCafe 
 	built-in functions, some functionalities are implemented in the specific files, and some common 
 	functionalities are implemented by calling functions from 'utilities.js'.
 
@@ -107,7 +107,7 @@ https://nodejs.org/en/, download the latest version of Node.js and install it.
 		i. test_super_store_site_en.js
 		ii. test_super_store_site_mobile.js
 			
-	These files executes the test cases. Some functionalitis are implemented by calling TestCafe 
+	These files execute the test cases. Some functionalitis are implemented by calling TestCafe 
 	built-in functions, some functionalities are implemented in the specific files, and some common 
 	functionalities are implemented by calling functions from 'utilities.js'.
 
