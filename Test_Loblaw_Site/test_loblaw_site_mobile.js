@@ -15,7 +15,9 @@ test('Search for items and sort the search results', async t => {
     
     await closingIframe(t); // Calling function from 'utilities.js' to close the iFrame
     
-    await searchItem(t, 'apples', 'APPLES'); // Calling function from 'utilities.js' to search item in the search bar
+    // Calling function from 'utilities.js' to search item in the search bar
+    // Providing the parameters 'searchString' and 'searchResultString' expected by the function
+    await searchItem(t, 'apples', 'APPLES');
     
     await sortSearchResults(t); // Calling function from 'utilities.js' to sort the search results
     
