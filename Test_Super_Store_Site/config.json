@@ -3,7 +3,7 @@
     "SelectProvince": ".select-province",
     "provinceName": "Ontario",
     "iframe": ".sl-show-animation .sl-frame",
-    "iframId": "#i-1",
+    "iframeId": "#i-1",
     "searchBarId": "#search-bar",
     "searchResult": ".term-result-found",
     "badge": ".deal-type"
