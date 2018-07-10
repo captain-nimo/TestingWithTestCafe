@@ -1,7 +1,7 @@
 {
     "baseUrl": "https://www.loblaws.ca/",
     "iframe": ".sl-show-animation .sl-frame",
-    "iframId": "#i-1",
+    "iframeId": "#i-1",
     "searchBarId": "#search-bar",
     "searchResult": ".term-result-found",
     "ascButton": "[data-sort-type='price-asc']",
