@@ -13,7 +13,7 @@ export async function closingIframe(t) {
     await t
         // Switching to iframe and closing it
         .switchToIframe(Selector(config.iframe))
-        .click(config.iframId)
+        .click(config.iframeId)
         .switchToMainWindow();
 }
 
