@@ -14,7 +14,9 @@ test('Search for item and check deal badge', async t => {
     
     await closingIframe(t); // CCalling function from 'utilities.js' to close the iFrame
     
-    await searchItem(t, 'oranges', 'ORANGES'); // Calling function from 'utilities.js' to search item in the search bar
+    // Calling function from 'utilities.js' to search item in the search bar
+    // Providing the parameters 'searchString' and 'searchResultString' expected by the function 
+    await searchItem(t, 'oranges', 'ORANGES');
     
     await checkDealBadge(t); // Calling function from 'utilities.js' to check deal badge presence in the search result page
     
